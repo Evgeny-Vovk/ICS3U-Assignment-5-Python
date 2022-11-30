@@ -14,7 +14,9 @@ def main():
 
     # process and output
     print("")
-    print("All the natural numbers that are multiples of 5 and 3, that are less than 1000 are:\n")
+    print(
+        "All the natural numbers that are multiples of 5 and 3, that are less than 1000 are:\n"
+    )
     while counter < 1000:
         if counter % 3 == 0 or counter % 5 == 0:
             print("{0} ".format(counter), end="")
